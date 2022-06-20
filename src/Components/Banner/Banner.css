@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&display=swap');
+
+.banner {
+    width: 70%;
+}
+
+.banner-text{
+    text-align: left;
+    margin-left: 8%;
+    color: white;
+    text-shadow: 0px 0px 5px #00000000;
+}
+
+.title{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.subtitle{
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+}
+
+mark{
+    background: linear-gradient(90deg, #5117F4, #DD24E1);
+    position: absolute;
+    clip: rect(30px, 300px, 50px, 15px);
+    color: #00000000;
+}
+
+.highlighted{
+    position: absolute;
+    margin-left: 18px;
+}
+
+@media (max-width: 1313px){
+    .title {
+            font-family: 'Exo', sans-serif;
+            font-weight: 700;
+            font-size: 3.5em;
+        }
+
+    .subtitle {
+            font-family: 'Exo', sans-serif;
+            font-weight: 500;
+            font-size: 0.99em;
+        }
+}
+
+@media (max-width: 1155px) {
+    .title {
+        font-family: 'Exo', sans-serif;
+        font-weight: 700;
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-family: 'Exo', sans-serif;
+        font-weight: 500;
+        font-size: 0.99em;
+    }
+}
+
+@media (max-width: 997px) {
+    .title {
+        font-family: 'Exo', sans-serif;
+        font-weight: 700;
+        font-size: 2.5em;
+    }
+
+    .subtitle {
+        font-family: 'Exo', sans-serif;
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap');
+
+.onboarding{
+    height: fit-content;
+}
+
+.onboarding-title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.headline{
+    padding-top: 20px;
+    width: 40vw;
+    margin-left: 10vw;
+}
+
+.under{
+    position: relative;
+    z-index: 99;
+}
+
+.under::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 4px;
+    margin-top: -10px;
+    z-index: 1;
+    background: linear-gradient(90deg, #DD24E1, #5117F4);
+}

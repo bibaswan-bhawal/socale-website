@@ -1,0 +1,58 @@
+.home{
+    width: 100%;
+    margin: auto;
+}
+
+.container-fluid{
+    height: auto;
+    padding-bottom: 10px;
+    background: radial-gradient(circle at 600% 0%, #c922e357, #00000000), radial-gradient(circle at 0% 600%, #c922e357, #00000000);
+    background-size: 100% 100%;
+    background-color: #000000;
+    margin-bottom: 0px;
+}
+
+.logo{
+    background-image: url(../../Assets/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+.logo-alt{
+    transform: scale(0.8);
+    margin-top: 5px;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    padding: 10px 30px;
+    transition: 0.4s;
+    top: 0;
+    width: 100%;    
+    z-index: 99;
+}
+
+.navbar-alt{
+    padding: 0px 0px;
+    transition: 0.4s;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 80px;
+}
+
+.logos{
+    background-image: url(../../Assets/logos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60vw;
+    height: 40vh;
+}
+
+.break{
+    margin-top: 100px;
+}
+
