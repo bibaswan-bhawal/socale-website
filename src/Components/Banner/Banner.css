@@ -75,3 +75,30 @@ mark{
         font-size: 0.8em;
     }
 }
+
+@media (max-width: 395px) {
+    .title {
+        font-family: 'Exo', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-family: 'Exo', sans-serif;
+        font-weight: 500;
+        font-size: 0.8em;
+    }
+    
+        mark {
+            background: linear-gradient(90deg, #5117F4, #DD24E1);
+            position: absolute;
+            clip: rect(15px, 300px, 25px, 5px);
+            color: #00000000;
+        }
+    
+        .highlighted {
+            position: absolute;
+            margin-left: 9px;
+
+        }
+}

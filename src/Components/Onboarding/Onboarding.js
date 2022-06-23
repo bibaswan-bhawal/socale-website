@@ -9,7 +9,7 @@ const Onboarding = () => (
         <div className='col col-md-auto'>
             <div className='box'>
                 <div className='headline text-center'>
-                    <h1 className=' onboarding-title'>Join Our Exclusive <span className='under'>Community!</span></h1>
+                    <h1 className='onboarding-title'>Join Our Exclusive <span className='under'>Community!</span></h1>
                 </div>
                 <EmailForm />
             </div>
