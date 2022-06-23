@@ -15,10 +15,10 @@ function App() {
           </div>
 
           <div>
-            <a href="" class="me-4 text-reset"><i class="fab fa-twitter text-col"></i></a>
-            <a href="" class="me-4 text-reset"><i class="fab fa-instagram text-col"></i></a>
-            <a href="" class="me-4 text-reset"><i class="fab fa-linkedin text-col"></i></a>
-            <a href="" class="me-4 text-reset"><i class="fab fa-youtube text-col"></i></a>
+            <a href="https://www.reddit.com/r/Socale/" class="me-4 text-reset"><i class="fab fa-reddit text-col"></i></a>
+            <a href="https://www.instagram.com/socale.co/" class="me-4 text-reset"><i class="fab fa-instagram text-col"></i></a>
+            <a href="https://www.linkedin.com/company/socale/" class="me-4 text-reset"><i class="fab fa-linkedin text-col"></i></a>
+            <a href="https://discord.com/invite/9v3G6xYHFB" class="me-4 text-reset"><i class="fab fa-discord text-col"></i></a>
           </div>
         </section>
       </footer>
